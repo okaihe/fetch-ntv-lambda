@@ -1,0 +1,18 @@
+export default [
+    "dasbeste",
+    "politik",
+    "US-wahl-2024",
+    "wirtschaft",
+    "boersenkurse",
+    "sport",
+    "panorama",
+    "leute",
+    "technik",
+    "ratgeber",
+    "wissen",
+    "auto",
+    "infografik",
+    "regionales",
+    "der_tag/alle_tage",
+    "meinung",
+];
