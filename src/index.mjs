@@ -17,7 +17,8 @@ export const handler = async (event, context) => {
         for (let link of links) {
             let articleKey = baseKey + "/" + category + "/" + helper.getFileNameFromLink(link);
             let htmlContent = await helper.downloadContentFrom(link);
-            await s3Uploader.uploadContent(bucket, articleKey, htmlContent);
+            let cleanedHTML = helper.cleanHTMLContent(htmlContent);
+            await s3Uploader.uploadContent(bucket, articleKey, cleanedHTML);
         }
     }
     return {

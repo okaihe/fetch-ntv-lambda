@@ -1,7 +1,7 @@
 export default [
     "dasbeste",
     "politik",
-    "US-wahl-2024",
+    "politik/US-wahl-2024",
     "wirtschaft",
     "boersenkurse",
     "sport",
